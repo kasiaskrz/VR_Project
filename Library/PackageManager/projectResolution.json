@@ -1,18 +1,18 @@
 {
   "context": {
-    "projectPath": "C:/VR_Project/UnityVRProject/My project/Packages",
+    "projectPath": "C:/Users/CW/Downloads/VR_Project/Packages",
     "unityVersion": "6000.2.7f2"
   },
   "inputs": [
-    "C:\\VR_Project\\UnityVRProject\\My project\\Packages\\manifest.json",
-    "C:\\VR_Project\\UnityVRProject\\My project\\Packages\\packages-lock.json",
+    "C:\\Users\\CW\\Downloads\\VR_Project\\Packages\\manifest.json",
+    "C:\\Users\\CW\\Downloads\\VR_Project\\Packages\\packages-lock.json",
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.7f2\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.collab-proxy@2.10.2": {
       "name": "com.unity.collab-proxy",
       "displayName": "Unity Version Control",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.collab-proxy@3351acaba9c9",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.collab-proxy@3351acaba9c9",
       "fingerprint": "3351acaba9c9f7fc41d4b2404fc11c55d01ab0ad",
       "editorCompatibility": "2021.3.0f1",
       "version": "2.10.2",
@@ -22,7 +22,7 @@
     "com.unity.feature.development@1.0.2": {
       "name": "com.unity.feature.development",
       "displayName": "Engineering",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.feature.development@767aadbc6eb7",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.feature.development@767aadbc6eb7",
       "fingerprint": "767aadbc6eb72681a4ca807c8fa248e0230a0cef",
       "version": "1.0.2",
       "source": "builtin",
@@ -31,7 +31,7 @@
     "com.unity.inputsystem@1.14.2": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.inputsystem@be6c4fd0abf5",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.inputsystem@be6c4fd0abf5",
       "fingerprint": "be6c4fd0abf5b9b45f956b97294032a67f3c2f4d",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.14.2",
@@ -41,7 +41,7 @@
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
       "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
@@ -51,7 +51,7 @@
     "com.unity.timeline@1.8.9": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.timeline@6b9e48457ddb",
       "fingerprint": "6b9e48457ddb4f64813d77fd77efc79a8f3102ae",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.8.9",
@@ -61,7 +61,7 @@
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.ugui@f250afc9b68d",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.ugui@f250afc9b68d",
       "fingerprint": "f250afc9b68ddb0d3ebf8e3274ec22b51a03153c",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
@@ -71,10 +71,40 @@
     "com.unity.visualscripting@1.9.7": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485",
       "fingerprint": "6279e2b7c4858e56cca7f367cd38c49ef66778c9",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.9.7",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.xr.management@4.5.3": {
+      "name": "com.unity.xr.management",
+      "displayName": "XR Plugin Management",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.xr.management@574ebfb1e976",
+      "fingerprint": "574ebfb1e9766bb5f6bdb255c6abfb195b43f4cb",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "4.5.3",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.xr.oculus@4.5.2": {
+      "name": "com.unity.xr.oculus",
+      "displayName": "Oculus XR Plugin",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.xr.oculus@44578ba4bd45",
+      "fingerprint": "44578ba4bd45cc491898e2b621210a6b690ef48c",
+      "editorCompatibility": "2022.3.1f1",
+      "version": "4.5.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.xr.openxr@1.15.1": {
+      "name": "com.unity.xr.openxr",
+      "displayName": "OpenXR Plugin",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.xr.openxr@05fb1a7d75d1",
+      "fingerprint": "05fb1a7d75d118139c283c8d76b7f99a655364a8",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.15.1",
       "source": "registry",
       "testable": false
     },
@@ -350,10 +380,30 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.xr.core-utils@2.5.3": {
+      "name": "com.unity.xr.core-utils",
+      "displayName": "XR Core Utilities",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.xr.core-utils@f0450cbac8d6",
+      "fingerprint": "f0450cbac8d66beb614cb1b4241eae977ee9990e",
+      "editorCompatibility": "2021.3.0f1",
+      "version": "2.5.3",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.xr.legacyinputhelpers@2.1.12": {
+      "name": "com.unity.xr.legacyinputhelpers",
+      "displayName": "XR Legacy Input Helpers",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@b7579e86f3b4",
+      "fingerprint": "b7579e86f3b456c909fda6b875fba7ab1eeb1322",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.1.12",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.ide.visualstudio@2.0.23": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
       "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
       "editorCompatibility": "2019.4.25f1",
       "version": "2.0.23",
@@ -363,7 +413,7 @@
     "com.unity.ide.rider@3.0.38": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
       "fingerprint": "1f60b3138684c97af67aa8d911b1632ba916d29d",
       "editorCompatibility": "2021.3.0a1",
       "version": "3.0.38",
@@ -373,7 +423,7 @@
     "com.unity.editorcoroutines@1.0.0": {
       "name": "com.unity.editorcoroutines",
       "displayName": "Editor Coroutines",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.editorcoroutines@7d48783e7b8c",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.editorcoroutines@7d48783e7b8c",
       "fingerprint": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
       "editorCompatibility": "2018.1.0a1",
       "version": "1.0.0",
@@ -383,7 +433,7 @@
     "com.unity.performance.profile-analyzer@1.2.3": {
       "name": "com.unity.performance.profile-analyzer",
       "displayName": "Profile Analyzer",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.performance.profile-analyzer@a68e7bc84997",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.performance.profile-analyzer@a68e7bc84997",
       "fingerprint": "a68e7bc849973d943853204178d08a2bc7656ffe",
       "editorCompatibility": "2020.3.0a1",
       "version": "1.2.3",
@@ -393,7 +443,7 @@
     "com.unity.test-framework@1.6.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.test-framework@d97b7cd61ded",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.test-framework@d97b7cd61ded",
       "fingerprint": "d97b7cd61dedd05f0fbaa425a40bd39d098f5cfc",
       "editorCompatibility": "6000.0.44f1",
       "version": "1.6.0",
@@ -403,7 +453,7 @@
     "com.unity.testtools.codecoverage@1.2.6": {
       "name": "com.unity.testtools.codecoverage",
       "displayName": "Code Coverage",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.testtools.codecoverage@205a02cbcb39",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.testtools.codecoverage@205a02cbcb39",
       "fingerprint": "205a02cbcb39584f20b51c49b853047aceb3a3a7",
       "editorCompatibility": "2019.3.0a1",
       "version": "1.2.6",
@@ -413,7 +463,7 @@
     "com.unity.settings-manager@2.1.0": {
       "name": "com.unity.settings-manager",
       "displayName": "Settings Manager",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.settings-manager@41738c275190",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.settings-manager@41738c275190",
       "fingerprint": "41738c27519039c335849eb78949382f4d7a3544",
       "editorCompatibility": "2022.3.0a1",
       "version": "2.1.0",
@@ -423,7 +473,7 @@
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "C:\\VR_Project\\UnityVRProject\\My project\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
+      "resolvedPath": "C:\\Users\\CW\\Downloads\\VR_Project\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
       "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
