@@ -130,8 +130,8 @@ GameObject:
   - component: {fileID: 34451198}
   - component: {fileID: 34451199}
   - component: {fileID: 34451200}
-  - component: {fileID: 34451201}
   - component: {fileID: 34451202}
+  - component: {fileID: 34451203}
   m_Layer: 0
   m_Name: Left_Hand
   m_TagString: Untagged
@@ -279,7 +279,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_InputActionReferencePerformed: {fileID: 0}
+    m_InputActionReferencePerformed: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualPerformed: 0
@@ -309,7 +309,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_InputActionReferencePerformed: {fileID: 0}
+    m_InputActionReferencePerformed: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualPerformed: 0
@@ -361,27 +361,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
---- !u!65 &34451201
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34451197}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.18, y: 0.17, z: 0.29}
-  m_Center: {x: 0, y: 0, z: -0.12}
 --- !u!54 &34451202
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -409,6 +388,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &34451203
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34451197}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.15
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &125688029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,9 +1306,11 @@ GameObject:
   - component: {fileID: 1733861267}
   - component: {fileID: 1733861266}
   - component: {fileID: 1733861265}
-  - component: {fileID: 1733861269}
-  - component: {fileID: 1733861268}
-  - component: {fileID: 1733861270}
+  - component: {fileID: 1733861271}
+  - component: {fileID: 1733861273}
+  - component: {fileID: 1733861275}
+  - component: {fileID: 1733861274}
+  - component: {fileID: 1733861276}
   m_Layer: 0
   m_Name: VR_Player
   m_TagString: Untagged
@@ -1363,7 +1365,7 @@ Transform:
   - {fileID: 1944914691}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1733861268
+--- !u!114 &1733861271
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1372,40 +1374,47 @@ MonoBehaviour:
   m_GameObject: {fileID: 1733861264}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be5c8a0e9ff602247a6d6caae434bd67, type: 3}
+  m_Script: {fileID: 11500000, guid: 626a4d6723d6ad24b9aebb811ad5a3dd, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GrabMoveLocomotion
-  leftHand: {fileID: 34451200}
-  rightHand: {fileID: 2136868733}
---- !u!54 &1733861269
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733861264}
-  serializedVersion: 5
-  m_Mass: 30
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement.ContinuousMoveProvider
+  m_Mediator: {fileID: 1733861274}
+  m_TransformationPriority: 0
+  m_MoveSpeed: 2
+  m_InAirControlModifier: 0.5
+  m_EnableStrafe: 1
+  m_EnableFly: 0
+  m_ForwardSource: {fileID: 743465547}
+  m_LeftHandMoveInput:
+    m_InputSourceMode: 2
+    m_InputAction:
+      m_Name: Left Hand Move
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 7e32aa50-132c-41ca-abf8-d1e499b3aeb4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_InputActionReference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_ObjectReferenceObject: {fileID: 0}
+    m_ManualValue: {x: 0, y: 0}
+  m_RightHandMoveInput:
+    m_InputSourceMode: 2
+    m_InputAction:
+      m_Name: Right Hand Move
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 6cc8d390-9d17-4fc6-a04d-b02fa583a5e2
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_InputActionReference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_ObjectReferenceObject: {fileID: 0}
+    m_ManualValue: {x: 0, y: 0}
   m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 80
-  m_CollisionDetection: 0
---- !u!136 &1733861270
-CapsuleCollider:
+--- !u!143 &1733861273
+CharacterController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1419,14 +1428,59 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
+  m_Height: 0.84
   m_Radius: 0.18
-  m_Height: 0.82
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.42, z: 0}
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.41, z: 0}
+--- !u!114 &1733861274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733861264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fa7b4195685c3846be746c74f0ab2f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.LocomotionMediator
+--- !u!114 &1733861275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733861264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a26c941eb8a46f7b6d00416227ab8c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.XRBodyTransformer
+  m_XROrigin: {fileID: 1733861266}
+  m_BodyPositionEvaluatorObject: {fileID: 0}
+  m_ConstrainedBodyManipulatorObject: {fileID: 0}
+  m_UseCharacterControllerIfExists: 1
+--- !u!114 &1733861276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733861264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41eae4e7a3aa16c4e942326433b8308f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRMovementWithRotation
+  rotationSpeed: 60
+  deadzone: 0.2
+  invertRotation: 0
 --- !u!1001 &1819973594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1575,8 +1629,8 @@ GameObject:
   - component: {fileID: 2136868731}
   - component: {fileID: 2136868732}
   - component: {fileID: 2136868733}
-  - component: {fileID: 2136868734}
   - component: {fileID: 2136868735}
+  - component: {fileID: 2136868736}
   m_Layer: 0
   m_Name: Right_Hand
   m_TagString: Untagged
@@ -1724,7 +1778,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_InputActionReferencePerformed: {fileID: 0}
+    m_InputActionReferencePerformed: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualPerformed: 0
@@ -1754,7 +1808,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_InputActionReferencePerformed: {fileID: 0}
+    m_InputActionReferencePerformed: {fileID: 5667446173830999989, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
     m_InputActionReferenceValue: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualPerformed: 0
@@ -1806,27 +1860,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
---- !u!65 &2136868734
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136868730}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.18, y: 0.17, z: 0.29}
-  m_Center: {x: 0, y: 0, z: -0.12}
 --- !u!54 &2136868735
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1854,6 +1887,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &2136868736
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136868730}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.15
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
