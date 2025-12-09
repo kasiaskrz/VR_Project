@@ -2788,6 +2788,7 @@ GameObject:
   - component: {fileID: 1291207725}
   - component: {fileID: 1291207724}
   - component: {fileID: 1291207723}
+  - component: {fileID: 1291207731}
   m_Layer: 0
   m_Name: VR_Player
   m_TagString: Player
@@ -2958,6 +2959,30 @@ Transform:
   - {fileID: 1061639988}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &1291207731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291207722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755231feabdd43d4ea23cd4fcd3cf232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ReturnToSampleScene
+  buttonX:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Button X
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 04c30d33-b3c2-488d-b5d9-bea730c0c771
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &1301032599
 PrefabInstance:
   m_ObjectHideFlags: 0

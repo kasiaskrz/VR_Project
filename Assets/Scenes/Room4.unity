@@ -11312,8 +11312,40 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357912368063722836, guid: de16148bffd7abd4d913428e3a134b3f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 619497710}
   m_SourcePrefab: {fileID: 100100000, guid: de16148bffd7abd4d913428e3a134b3f, type: 3}
+--- !u!1 &619497709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357912368063722836, guid: de16148bffd7abd4d913428e3a134b3f, type: 3}
+  m_PrefabInstance: {fileID: 619497708}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &619497710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619497709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755231feabdd43d4ea23cd4fcd3cf232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ReturnToSampleScene
+  buttonX:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Button X
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 04c30d33-b3c2-488d-b5d9-bea730c0c771
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &622899748
 GameObject:
   m_ObjectHideFlags: 0
