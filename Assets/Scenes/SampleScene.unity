@@ -777,7 +777,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 905380998}
-        m_TargetAssemblyTypeName: TeleportToScene, Assembly-CSharp
+        m_TargetAssemblyTypeName: TeleportToScene1, Assembly-CSharp
         m_MethodName: Teleport
         m_Mode: 1
         m_Arguments:
@@ -1274,7 +1274,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1495081810}
+      - m_Target: {fileID: 1439988833}
         m_TargetAssemblyTypeName: TeleportToScene1, Assembly-CSharp
         m_MethodName: Teleport
         m_Mode: 1
